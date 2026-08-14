@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="📡 GPS SMS Auto" android:textSize="28sp" android:textStyle="bold" android:layout_marginBottom="40dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Numéro de destination :" android:textSize="16sp"/>
+    <EditText android:id="@+id/et_numero" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="+33748107513"
+        android:inputType="phone" android:layout_marginTop="8dp" android:padding="12dp"/>
+    <Button android:id="@+id/btn_start" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="🚀 Démarrer le service"
+        android:layout_marginTop="40dp" android:padding="16dp" android:textSize="18sp"
+        android:backgroundTint="#22c55e"/>
+</LinearLayout>

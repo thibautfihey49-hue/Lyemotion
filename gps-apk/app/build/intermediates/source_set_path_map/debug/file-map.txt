@@ -1,0 +1,11 @@
+com.gpsauto.app-play-services-base-18.1.0-0 /data/data/com.termux/files/home/.gradle/caches/transforms-3/2069d3cf224d4c67455dc2be57f2f5e5/transformed/play-services-base-18.1.0/res
+com.gpsauto.app-play-services-basement-18.1.0-1 /data/data/com.termux/files/home/.gradle/caches/transforms-3/4a03658d7990852bf6f240f462b77a30/transformed/play-services-basement-18.1.0/res
+com.gpsauto.app-core-1.2.0-2 /data/data/com.termux/files/home/.gradle/caches/transforms-3/80ab69a87e724892e79a128784aff853/transformed/core-1.2.0/res
+com.gpsauto.app-coordinatorlayout-1.0.0-3 /data/data/com.termux/files/home/.gradle/caches/transforms-3/bdd34a0a79d7e09b09301e2ed7577e70/transformed/coordinatorlayout-1.0.0/res
+com.gpsauto.app-pngs-4 /data/data/com.termux/files/home/gps-apk/app/build/generated/res/pngs/debug
+com.gpsauto.app-resValues-5 /data/data/com.termux/files/home/gps-apk/app/build/generated/res/resValues/debug
+com.gpsauto.app-packageDebugResources-6 /data/data/com.termux/files/home/gps-apk/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.gpsauto.app-packageDebugResources-7 /data/data/com.termux/files/home/gps-apk/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.gpsauto.app-merged_res-8 /data/data/com.termux/files/home/gps-apk/app/build/intermediates/merged_res/debug
+com.gpsauto.app-debug-9 /data/data/com.termux/files/home/gps-apk/app/src/debug/res
+com.gpsauto.app-main-10 /data/data/com.termux/files/home/gps-apk/app/src/main/res

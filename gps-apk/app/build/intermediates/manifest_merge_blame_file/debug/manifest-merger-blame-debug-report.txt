@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gpsauto"
+4    versionCode="1"
+5    versionName="1.0"
+6    android:versionCode="1"
+7    android:versionName="1.0" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="26"
+11        android:targetSdkVersion="34" />
+12
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:4:5-78
+13-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.SEND_SMS" />
+14-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:5:5-66
+14-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:6:5-76
+15-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:6:22-74
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:7:5-76
+16-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:7:22-74
+17
+18    <application
+18-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:8:5-19:19
+19        android:allowBackup="true"
+19-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:8:18-44
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/80ab69a87e724892e79a128784aff853/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@android:drawable/ic_menu_mylocation"
+23-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:9:9-60
+24        android:label="GPS SMS Auto"
+24-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:10:9-37
+25        android:theme="@style/Theme.Material3.DayNight.NoActionBar" >
+25-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:11:9-68
+26        <activity
+26-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:12:9-17:20
+27            android:name="com.gpsauto.MainActivity"
+27-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:12:19-47
+28            android:exported="true" >
+28-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:12:48-71
+29            <intent-filter>
+29-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:13:13-16:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:14:17-68
+30-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:14:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:15:17-76
+32-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:15:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:18:9-92
+37            android:name="com.gpsauto.LocationService"
+37-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:18:18-49
+38            android:foregroundServiceType="location" />
+38-->/data/data/com.termux/files/home/gps-apk/app/src/main/AndroidManifest.xml:18:50-90
+39
+40        <activity
+40-->[com.google.android.gms:play-services-base:18.1.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/2069d3cf224d4c67455dc2be57f2f5e5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+41            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+41-->[com.google.android.gms:play-services-base:18.1.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/2069d3cf224d4c67455dc2be57f2f5e5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-base:18.1.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/2069d3cf224d4c67455dc2be57f2f5e5/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.android.gms:play-services-base:18.1.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/2069d3cf224d4c67455dc2be57f2f5e5/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+44
+45        <meta-data
+45-->[com.google.android.gms:play-services-basement:18.1.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/4a03658d7990852bf6f240f462b77a30/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+46            android:name="com.google.android.gms.version"
+46-->[com.google.android.gms:play-services-basement:18.1.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/4a03658d7990852bf6f240f462b77a30/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->[com.google.android.gms:play-services-basement:18.1.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/4a03658d7990852bf6f240f462b77a30/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+48    </application>
+49
+50</manifest>
